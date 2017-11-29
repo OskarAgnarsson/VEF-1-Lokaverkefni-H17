@@ -4,5 +4,79 @@
 body{
 	margin-left: auto;
 	margin-right: auto;
+	background-image: url(images.png);
+}
+.wrapper{
 	max-width: 60em;
+	margin: 0 auto;
+	padding: 1em;
+	background-color: rgba(20,20,39,.95);
+	color: rgb(255, 255, 163);
+}
+/* Header*/
+header{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+	align-items: center;
+}
+.topmenu{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	list-style-type: none;
+	align-items: center;
+	margin: 0;
+	padding: 1em;
+	background-color: rgba(20,20,39,.9);
+}
+.topmenu a{
+	display: flex;
+	font-size: 1.24em;
+	text-align: center;
+	padding: .2em;
+	text-decoration: none;
+	color: rgb(255, 255, 163);
+}
+.topmenu a:hover{
+	background-color: rgba(255,255,255,.05);
+}
+.topmenu a:active{
+	background-color: rgba(255,255,255,.1);
+}
+
+/* Content*/
+.contentWrapper{
+	max-width: 60em;
+	margin: 0 auto;
+	padding: 1em;
+	background-color: rgba(20,20,39,.95);
+	color: rgb(255, 255, 163);
+}
+.contentWrapperDouble{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	max-width: 60em;
+	margin: 0 auto;
+	padding: 1em;
+	background-color: rgba(20,20,39,.95);
+	color: rgb(255, 255, 163);
+}
+.contentWrapperTriple{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 60em;
+	margin: 0 auto;
+	padding: 1em;
+	background-color: rgba(20,20,39,.95);
+	color: rgb(255, 255, 163);
+}
+.content{
+	padding: .5em;
+	margin: .5em;
+	background-color: rgba(20,20,39,.95);
+
+}
+.content h1{
+	text-align: center;
 }
