@@ -72,6 +72,8 @@ header{
 	color: rgb(255, 255, 163);
 }
 .content{
+	margin-left: auto;
+	margin-right: auto;
 	padding: .5em;
 	margin: .5em;
 	background-color: rgba(20,20,39,.95);
@@ -79,4 +81,30 @@ header{
 }
 .content h1{
 	text-align: center;
+}
+.leikur{
+	height: 100vh;
+}
+.saga{
+	height: 100vh;
+}
+figcaption{
+	text-align: center;
+}
+figure{
+	display: block;
+	margin-left: 5em;
+	margin-right: 3em;
+}
+.takki{
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	display: block;
+	border-radius: 50%;
+	padding: 1.2em;
+	font-size: 1.5em;
+	color: #015ec6;
+	background-color: #ffffff;
+	text-decoration: none;
 }
